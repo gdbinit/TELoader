@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B537F4F1B29C82300AFDA7F /* idaldr.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9328FA1B25E2640052314F /* idaldr.h */; };
+		7B537F511B29C82300AFDA7F /* teloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC1F262145ECE0F009A8407 /* teloader.cpp */; };
+		7B9237B91BA71CAC00257DE6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7B9237B81BA71CAC00257DE6 /* README.md */; };
+		7B9328FB1B25E2640052314F /* idaldr.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9328FA1B25E2640052314F /* idaldr.h */; };
+		DEC1F264145ECE0F009A8407 /* teloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEC1F262145ECE0F009A8407 /* teloader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B0B24CB1B28851100EE985E /* guids.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guids.h; sourceTree = "<group>"; };
+		7B537F561B29C82300AFDA7F /* teloader.lmc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = teloader.lmc; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9237B81BA71CAC00257DE6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B9328FA1B25E2640052314F /* idaldr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idaldr.h; sourceTree = "<group>"; };
+		D2AAC0630554660B00DB518D /* teloader64.lmc64 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = teloader64.lmc64; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC1F262145ECE0F009A8407 /* teloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = teloader.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B537F521B29C82300AFDA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* MachOPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				7B9237B81BA71CAC00257DE6 /* README.md */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = MachOPlugin;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEC1F262145ECE0F009A8407 /* teloader.cpp */,
+				7B0B24CB1B28851100EE985E /* guids.h */,
+				7B9328FA1B25E2640052314F /* idaldr.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* teloader64.lmc64 */,
+				7B537F561B29C82300AFDA7F /* teloader.lmc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B537F4E1B29C82300AFDA7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B537F4F1B29C82300AFDA7F /* idaldr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9328FB1B25E2640052314F /* idaldr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B537F4D1B29C82300AFDA7F /* TELoader32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B537F531B29C82300AFDA7F /* Build configuration list for PBXNativeTarget "TELoader32" */;
+			buildPhases = (
+				7B537F4E1B29C82300AFDA7F /* Headers */,
+				7B537F501B29C82300AFDA7F /* Sources */,
+				7B537F521B29C82300AFDA7F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TELoader32;
+			productName = MachOPlugin;
+			productReference = 7B537F561B29C82300AFDA7F /* teloader.lmc */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		D2AAC0620554660B00DB518D /* TELoader64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "TELoader64" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TELoader64;
+			productName = MachOPlugin;
+			productReference = D2AAC0630554660B00DB518D /* teloader64.lmc64 */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "TELoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* MachOPlugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* TELoader64 */,
+				7B537F4D1B29C82300AFDA7F /* TELoader32 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B537F501B29C82300AFDA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B537F511B29C82300AFDA7F /* teloader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9237B91BA71CAC00257DE6 /* README.md in Sources */,
+				DEC1F264145ECE0F009A8407 /* teloader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = lmc64;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__MAC__=1",
+					"__EA64__=1",
+				);
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idasdk67/include";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idaq.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida64";
+				PRODUCT_MODULE_NAME = teloader;
+				PRODUCT_NAME = teloader64;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = lmc64;
+				EXECUTABLE_PREFIX = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__MAC__=1",
+					"__EA64__=1",
+				);
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idasdk67/include";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idaq.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida64";
+				PRODUCT_MODULE_NAME = teloader;
+				PRODUCT_NAME = teloader64;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = __MAC__;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.3/idasdk63/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.3/idaq.app/Contents/MacOS/";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lida";
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = __MAC__;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.3/idasdk63/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.3/idaq.app/Contents/MacOS/";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lida";
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		7B537F541B29C82300AFDA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = lmc;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "__MAC__=1";
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idasdk67/include";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idaq.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida";
+				PRODUCT_MODULE_NAME = teloader;
+				PRODUCT_NAME = teloader;
+			};
+			name = Debug;
+		};
+		7B537F551B29C82300AFDA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = lmc;
+				EXECUTABLE_PREFIX = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "__MAC__=1";
+				HEADER_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idasdk67/include";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "/Applications/IDA\\ Pro\\ 6.7/idaq.app/Contents/MacOS/";
+				OTHER_LDFLAGS = "-lida";
+				PRODUCT_MODULE_NAME = teloader;
+				PRODUCT_NAME = teloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "TELoader64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "TELoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B537F531B29C82300AFDA7F /* Build configuration list for PBXNativeTarget "TELoader32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B537F541B29C82300AFDA7F /* Debug */,
+				7B537F551B29C82300AFDA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
